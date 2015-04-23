@@ -1,0 +1,26 @@
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background(:timeout => 30)
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+
+query "view marked:'Help'"
+touch "view marked:'Help'"
+touch "view marked:'Help'"
+touch "view marked:'Done'"
+touch "view marked:'Done'"
+rotate :right
+rotate :left
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
