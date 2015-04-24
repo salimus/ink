@@ -9,7 +9,6 @@ Given(/^I am on the Welcome Screen$/) do
   element_exists("view")
 end
 
-
-Then(/^I touch "([^\"]*)"$/) do |text|
-  touch(text)
+Then(/^I tap on "([^"]*)"$/) do |text|
+  touch("view marked:'#{text}'")
 end

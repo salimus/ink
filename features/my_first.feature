@@ -5,6 +5,8 @@ Feature: Running a test
 
 Scenario: Example steps
   Given I am on the Welcome Screen
-  Then I touch "Help"
+  Then I tap on "Help"
+  And I should see "Inkpad 1.6"
+  And I tap on "Done"
 
 
